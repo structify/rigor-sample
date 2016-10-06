@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RigorAPI", "RigorAPI\RigorAPI.csproj", "{5F52BBAC-7670-4B84-8B52-D19829CE2919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rigor.Model", "Rigor.Model\Rigor.Model.csproj", "{B47CCAED-5059-4640-84E8-2B6BF1C3EE45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{306A0E19-A544-40D7-B101-009EA9E77028}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F52BBAC-7670-4B84-8B52-D19829CE2919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F52BBAC-7670-4B84-8B52-D19829CE2919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F52BBAC-7670-4B84-8B52-D19829CE2919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F52BBAC-7670-4B84-8B52-D19829CE2919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47CCAED-5059-4640-84E8-2B6BF1C3EE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47CCAED-5059-4640-84E8-2B6BF1C3EE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47CCAED-5059-4640-84E8-2B6BF1C3EE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47CCAED-5059-4640-84E8-2B6BF1C3EE45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
