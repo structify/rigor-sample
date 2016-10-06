@@ -41,6 +41,22 @@ namespace RigorAPI.Controllers
             return Ok(new { requests= requests });
         }
 
+        [HttpGet]
+        [Route("api/HAR/{id}/Requests/{reqId}")]
+        public IHttpActionResult Requests(int id, int reqId)
+        {
+            if (id < 0 || id >= logs.Count())
+            {
+                return NotFound();
+            }
+            var requests = logs[id].Log.Entries.Select(x => x.Request);
+            if(reqId < 0 || reqId >= requests.Count())
+            {
+                return NotFound();
+            }
+            return Ok(requests.ToArray()[reqId]);
+        }
+
         // POST: api/HAR
         public IHttpActionResult Post([FromBody]HAR value)
         {
